@@ -1,95 +1,42 @@
-#sidebar {
-  background: firebrick;  
-  width: 15%;
-  height: 100%;
-  position: fixed;
-  left: 0px;
-  display: flex;
-  flex-direction: column;
-  bottom: 0px;
-  top: 0px;
+
+
+.text {
+  font-family: "Space Mono", "sans-serif";
+  color: white;
+  text-align: center;
 }
+
 header {
-  background: darkblue;
-  color: aliceblue;
-  width: 120%;
-  height: 15%;
-  position: fixed;
-  top: 0%;
-  justify-content: space-around;
-  left: 0%;
-}
-#title {
-  color: alice-blue;
-  position: fixed;
-  top: 0%;
-  left: 15%;
-  font-size: 25px;
+  width: 300px;
+  height: 100px;
+  border: 1px solid blue;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 body {
-  background: aliceblue;
+  background-image: linear-gradient(to bottom right, black, blue);
 }
-#logo {
-width: 10%;
-border-radius: 50%;
-position: fixed;
-left: 2%;
-top: 1.5%;
-height: auto;
-}
-#dashboard {
-  position: fixed;
-  top: 25%;
-  left: 3.5%;
-  width: 8%;
-  border-radius:80px;
-  max-width: 100%;
-  height: auto;
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #023b86;
+  font-weight: bold;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  transition-duration: 0.4s;
 }
 
-#learning {
-  position: fixed;
-  top: 67%;
-  left: 3.5%;
-  width: 7.5%;
-  border-radius: 50%;
-  max-width: 100%;
-  height: auto;
+input:hover {
+    background-color: #2847e2 !important;
+    color: white !important;
+    opacity: 1 !important;
 }
-.desc {
-  color: aliceblue;
-  position: fixed;
-  max-width: 100%;
-  height: auto;
-}
-#pv-desc {
-  top: 35%;
-  left: 0.5%;
-  font-size-adjust: inherit;
-  font-size: 13px;
 
-#l-desc {
-  top: 78.5%;
-  left: 1%;
-  font-size-adjust: inherit;
-  font-size: 15px;
-}
-#p-view {
+.horizontal-center {
   display: flex;
-  align-content: center;
-}
-
-#learn {
-  display: flex;
-  align-content: center;
-}
-#background {
-  background: red;
-}
-#Welcome{
-  font-family: 'Audiowide';
-  font-size: 30px;
-  position: fixed;
-  top: 20%;
-  left: 30%;
+  justify-content: center;
 }
